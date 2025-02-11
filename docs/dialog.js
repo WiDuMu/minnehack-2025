@@ -13,7 +13,7 @@ export function showModalLocation(location) {
             <span class="description">${img.description}</span>
             <span class="date">${img.date}</span>
             </span>
-            <img src="http://localhost:8080/${img.location}">
+            <img src="./assets/${img.location}">
             
    </swiper-slide>`);
    carousel.outerHTML = `<swiper-container id="carousel" navigation="true">
